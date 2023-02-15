@@ -31,3 +31,11 @@ with open('readme.txt', 'w') as f:
   # this appends to the oroginal content 
 with open('readme.txt', 'a') as f:
   f.write('I dont care 3xxxxxx')
+
+# create a file through python code
+# get it to accept user input
+# to append to the content
+
+with open('user.txt', 'a') as f:
+  input = input("Enter whatever you want: ")
+  f.write(input)
